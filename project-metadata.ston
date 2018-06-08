@@ -1,15 +1,15 @@
-CGOProject2 {
+CGOProject {
 	#name : #Counter,
 	#description : 'A simple counter project. You can increment it, decrement it and get the value from the counter.',
 	#units : [
-		CGOPackageUnit2 {
+		CGOPackageUnit {
 			#name : #Counter-Tests,
 			#description : 'Test package of the counter implementation.',
 			#dependencies : [
 				#Counter-Core
 			]
 		},
-		CGOPackageUnit2 {
+		CGOPackageUnit {
 			#name : #Counter-Core,
 			#description : 'Core package with the counter implementation.',
 			#dependencies : [ ]
