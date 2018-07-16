@@ -1,3 +1,4 @@
+{#version:'1.0'}
 OngoingProject {
 	#name : #Counter,
 	#description : 'A simple counter project. You can increment it, decrement it and get the value from the counter.',
